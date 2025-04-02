@@ -1,9 +1,9 @@
 import Login from '../pages/Login'
 import Home from '../Home'
 
-let enrutador = [
+export let enrutador = [
     {
-        path:'/login',
+        path:'/',
         element: <Login />
     },
 
